@@ -1,0 +1,109 @@
+
+.depLink2 {
+    margin-left: 200px;
+    
+}
+.depLink:hover {
+    color: crimson;
+    background-color: honeydew;
+}
+.depLink2:hover {
+    background-color: honeydew;
+    color: green;
+    
+}
+.headder {
+    text-align: center;
+    font-family: 'Girassol', cursive;
+    /* font-family: 'Pacifico', cursive; */
+}
+.presentation {
+    left: 400px;
+}
+.seattle {
+    border-radius: 16px;
+    width: 300px;
+    margin-right: 100px;
+    margin-top: 110px;
+    filter: grayscale(75%);
+    border: 10px solid transparent;
+    border-image: url("../assets/flourish-2031230_1280.png") 30% round;
+    
+
+}
+#oseTitle{
+    margin-right: 117px;
+    
+}
+.opening {
+    margin-top: 230px;
+    margin-right: 150px;
+    font-family: 'Girassol', cursive;
+}
+#statement {
+    margin-right: 110px;
+}
+#fullName {
+    margin-right: 85px;
+    font-size: 350%;
+}
+
+.appDescription {
+    color: black;
+}
+.tet {
+    width:100%; height:570px;
+}
+.Carousel{
+    max-width: 40%;
+    margin-left: 380px;
+    
+    filter: grayscale(80%);
+}
+.projectTitle {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+.projectSubTitle {
+    text-align: center;
+    font: bold;
+    font-family: 'Dancing Script', cursive;
+}
+#loqalBody {
+    height: 173px;
+
+}
+
+#loq {
+    max-height: 261px;
+}
+#planBod {
+    height: 168px;
+}
+.aboutMeTitleCards{
+    text-align: center;
+    
+}
+.cBody{
+    background-color: lightgray;
+}
+#oseDenver {
+    
+    filter: grayscale(90%);
+    max-width: 320px;
+    max-height: 320px;
+    margin-left: 30px;
+    opacity: 85%;
+    border: 10px solid transparent;
+    border-image: url("../assets/flourish-2031230_1280.png") 30% round;
+    /* max-height: 300px; */
+}
+.aboutMeStatement{
+    margin-right: 800px;
+}
+#textAbout {
+    color: midnightblue;
+    border: 10px solid transparent;
+    
+    border-image: url("../assets/flourish-2031230_1280.png") 30% round;
+}
