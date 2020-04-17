@@ -6,6 +6,7 @@ import Hero from "../components/Hero";
 // import noteTaker from "../assets/noteTaker.png";
 // import weatherDash from "../assets/weatherDash.png";
 // import passwordGen from "../assets/passwordGen.png";
+import Footer from "../components/Footer";
 import seattle from "../assets/oseSeattle.jpg";
 import denver from "../assets/oseDenver.jpg"
 // import Carousel from 'react-bootstrap/Carousel'
@@ -180,6 +181,7 @@ function Home() {
     <br/>
     <br/>
     <section id ="experienceA"></section>
+    
     </div>
 
        
