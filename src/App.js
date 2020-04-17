@@ -13,7 +13,7 @@ function App() {
       <div>
         <Navbar />
         <Wrapper>
-          <Route exact path="/React-Portfolio" component={Home} />
+          <Route exact path="/" component={Home} />
         </Wrapper>
         <Footer />
       </div>
