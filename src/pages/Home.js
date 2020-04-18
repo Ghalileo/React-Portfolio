@@ -7,6 +7,7 @@ import Hero from "../components/Hero";
 // import weatherDash from "../assets/weatherDash.png";
 // import passwordGen from "../assets/passwordGen.png";
 import Footer from "../components/Footer";
+import StickyFooter from 'react-sticky-footer';
 import seattle from "../assets/oseSeattle.jpg";
 import denver from "../assets/oseDenver.jpg"
 // import Carousel from 'react-bootstrap/Carousel'
@@ -162,7 +163,7 @@ function Home() {
             
           </Col>
           <Col sm="6">
-            <h4 id="textAbout">Born in Kano Nigeria, Oseghale Okogbo is an individual who seeks success by embodying the mamba mentality; a state of being in which an individual gives 100% of their ability to try 100% of the time. Throughout my journey on this earth, I have learned that the most valuable thing is not what you achieve, but what you are willing to do in order to secure the bag.</h4>
+            <h4 id="textAbout">Born in Kano, Nigeria, Oseghale Okogbo is an individual who seeks success by embodying the mamba mentality; a state of being in which an individual gives 100% of their ability to try 100% of the time. Throughout my journey on this earth, I have learned that the most valuable thing is not what you achieve, but what you are willing to do in order to secure the bag.</h4>
           </Col>
         </Row>
        
@@ -181,7 +182,7 @@ function Home() {
     <br/>
     <br/>
     <section id ="experienceA"></section>
-    
+    <StickyFooter></StickyFooter>
     </div>
 
        
