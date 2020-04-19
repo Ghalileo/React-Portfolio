@@ -192,11 +192,8 @@ function Home() {
     <br/>
     <br/>
     <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
+    
+    
     <section id ="experienceA"></section>
     <Row>
       <Col sm="4">
