@@ -93,33 +93,31 @@
 #oseDenver {
     
     filter: grayscale(90%);
-    max-width: 320px;
-    max-height: 320px;
-    margin-left: 30px;
+    max-width: 520px;
+    width: 200px;
+    max-height: 260px;
+    margin-left: 75px;
     opacity: 85%;
-    border: 10px solid transparent;
-    border-image: url("../assets/flourish-2031230_1280.png") 30% round;
+    border: 5px solid transparent;
+    box-shadow: 0 4px 8px 0 rgba(255,255,255, 0.9), 0 6px 20px 0 rgba(255,255,255, 0.9);
+    /* border-image: url("../assets/flourish-2031230_1280.png") 30% round; */
     /* max-height: 300px; */
 }
 .aboutMeStatement{
     margin-right: 800px;
 }
 #textAbout {
-    color: midnightblue;
+    color: lightslategray;
     border: 10px solid transparent;
     
     border-image: url("../assets/flourish-2031230_1280.png") 30% round;
 }
-#hope{
-    min-height: 100px;
-    background: white;
-    position: relative;
-    /* text-align: center; */
-    color: black;
-    font-style: italic;
-    font-weight: bold;
-    opacity: 95%;
-}
+
 .expBody {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: transparent;
+
+}
+.expButt {
+    /* text-align: center; */
+    font-family: 'Dancing Script', cursive;
 }

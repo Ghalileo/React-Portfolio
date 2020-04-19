@@ -169,13 +169,14 @@ function Home() {
         <h1 className="headder" id="portfolioG">About Me</h1>
         <br/>
         <Row>
+        <Col sm="6">
+            <h4 id="textAbout">Born in Kano, Nigeria, Oseghale Okogbo is an individual who seeks success by embodying the mamba mentality; a state of being in which an individual gives 100% of their ability to commit 100% of the time. Throughout my journey on this earth, I have learned that the most valuable thing is not what you achieve, but how hard one is willing to work to secure the bag.</h4>
+          </Col>
           <Col sm="6">
-            <CardImg src={denver} alt="denver" id="oseDenver"/>
+            <img src={denver} alt="denver" id="oseDenver"/>
             
           </Col>
-          <Col sm="6">
-            <h4 id="textAbout">Born in Kano, Nigeria, Oseghale Okogbo is an individual who seeks success by embodying the mamba mentality; a state of being in which an individual gives 100% of their ability to try 100% of the time. Throughout my journey on this earth, I have learned that the most valuable thing is not what you achieve, but what you are willing to do in order to secure the bag.</h4>
-          </Col>
+          
         </Row>
         <br />
         <br />
@@ -198,17 +199,17 @@ function Home() {
     <Row>
       <Col sm="4">
         <Card body className="expBody">
-          <Button outline color="warning" className="projectTitle" href="https://www.linkedin.com/in/oseokogbo/" target="_blank">LinkedIn</Button>
+          <Button outline color="warning" className="expButt" href="https://www.linkedin.com/in/oseokogbo/" target="_blank">LinkedIn</Button>
         </Card>
       </Col>
       <Col sm="4">
         <Card body className="expBody">
-          <Button outline color="warning" className="projectTitle" href="https://drive.google.com/open?id=1bosvyzSrq8X4iUWzoNfenHxHlAkgdyGP" target="_blank">Resume</Button>
+          <Button outline color="warning" className="expButt" href="https://drive.google.com/open?id=1bosvyzSrq8X4iUWzoNfenHxHlAkgdyGP" target="_blank">Resume</Button>
         </Card>
       </Col>
       <Col sm="4">
         <Card body className="expBody">
-          <Button outline color="warning" className="projectTitle" href="https://github.com/Ghalileo" target="_blank">GitHub</Button>
+          <Button outline color="warning" className="expButt" href="https://github.com/Ghalileo" target="_blank">GitHub</Button>
         </Card>
       </Col>
     </Row>
