@@ -177,6 +177,10 @@ function Home() {
             <h4 id="textAbout">Born in Kano, Nigeria, Oseghale Okogbo is an individual who seeks success by embodying the mamba mentality; a state of being in which an individual gives 100% of their ability to try 100% of the time. Throughout my journey on this earth, I have learned that the most valuable thing is not what you achieve, but what you are willing to do in order to secure the bag.</h4>
           </Col>
         </Row>
+        <br />
+        <br />
+        <br />
+        <br />
        
     <br/>
     <br/>
