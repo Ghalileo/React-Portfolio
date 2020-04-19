@@ -19,8 +19,8 @@ function App() {
           {/* <Footer/> */}
           
         </Wrapper>
-        <StickyFooter></StickyFooter>
-        {/* <Footer/> */}
+        
+        <Footer/>
         {/* <Route exact path={["/","/React-Portfolio"]} component={Footer}/> */}
         {/* <Footer><Route exact path={["/","/React-Portfolio"]} component={Home} /></Footer> */}
       </div>

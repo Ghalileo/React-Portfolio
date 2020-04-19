@@ -113,11 +113,12 @@
     border-image: url("../assets/flourish-2031230_1280.png") 30% round;
 }
 
-.expBody {
+/* .expBody {
     background-color: transparent;
 
-}
-.expButt {
-    /* text-align: center; */
+} */
+
+/* .expButt {
+    text-align: center;
     font-family: 'Dancing Script', cursive;
-}
+} */
