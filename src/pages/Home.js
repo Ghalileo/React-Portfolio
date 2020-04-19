@@ -45,12 +45,17 @@ function Home() {
         </Hero>
         <br/>
         <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         
         <section id ="portF"></section>
         <hr/>
         <br/>
         <br />
         <br />
+        
             <h1 className="headder" id="portfolioT">Portfolio</h1>
         <br /> 
         <Row>
@@ -148,6 +153,12 @@ function Home() {
 
         
         <br/>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
 
         {/* section break */}
         <section id ="experienceF"></section>
