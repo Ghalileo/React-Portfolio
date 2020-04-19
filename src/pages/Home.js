@@ -170,7 +170,7 @@ function Home() {
         <br/>
         <Row>
           <Col sm="6">
-            <CardImg src={denver} id="oseDenver"/>
+            <CardImg src={denver} alt="denver" id="oseDenver"/>
             
           </Col>
           <Col sm="6">
@@ -191,7 +191,7 @@ function Home() {
     <br/>
     <br/>
     <br/>
-    <br/>
+    
     
     
     <section id ="experienceA"></section>
