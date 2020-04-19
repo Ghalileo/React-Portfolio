@@ -196,7 +196,7 @@ function Home() {
     
     
     <section id ="experienceA"></section>
-    {/* <Row>
+    <Row>
       <Col sm="4">
         <Card body className="expBody">
           <Button outline color="warning" className="expButt" href="https://www.linkedin.com/in/oseokogbo/" target="_blank">LinkedIn</Button>
@@ -212,7 +212,7 @@ function Home() {
           <Button outline color="warning" className="expButt" href="https://github.com/Ghalileo" target="_blank">GitHub</Button>
         </Card>
       </Col>
-    </Row> */}
+    </Row>
     </div>
 
        
