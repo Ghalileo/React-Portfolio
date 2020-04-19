@@ -33,18 +33,18 @@ const Navv = (props) => {
   return (
     <div>
       <Navbar className="navBarr"  light expand="md">
-        <AnchorLink href='#homeF'><Button outline color="primary">Home</Button></AnchorLink>
+        <AnchorLink href='#homeF'><Button id="homeB" outline color="primary">Home</Button></AnchorLink>
         <NavbarToggler onClick={toggle} />
         
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             
             <NavItem>
-            <AnchorLink href='#portF'><Button outline color="info">Portfolio</Button></AnchorLink>
+            <AnchorLink href='#portF'><Button id="portBut" outline color="info">Portfolio</Button></AnchorLink>
             </NavItem>
             
             <NavItem>
-              <AnchorLink href='#experienceF'><Button outline color="success">About Me</Button></AnchorLink>
+              <AnchorLink href='#experienceF'><Button id="aboutB"outline color="success">About Me</Button></AnchorLink>
             </NavItem>
             <NavItem>
               <AnchorLink href='#experienceA'><Button id ="expB"outline color="warning">Experience</Button></AnchorLink>

@@ -170,8 +170,9 @@ function Home() {
     <br/>
     <br/>
     <hr/>
-    <br/>            
+    <br/>           
     <br/>
+    <h1 className="headder" id="portfolioT">Experience</h1>
     <br/>
     <br/>
     <br/>
@@ -182,7 +183,23 @@ function Home() {
     <br/>
     <br/>
     <section id ="experienceA"></section>
-    <StickyFooter></StickyFooter>
+    <Row>
+      <Col sm="4">
+        <Card body className="expBody">
+          <Button outline color="warning" className="projectTitle" href="https://www.linkedin.com/in/oseokogbo/" target="_blank">LinkedIn</Button>
+        </Card>
+      </Col>
+      <Col sm="4">
+        <Card body className="expBody">
+          <Button outline color="warning" className="projectTitle" href="https://drive.google.com/open?id=1bosvyzSrq8X4iUWzoNfenHxHlAkgdyGP" target="_blank">Resume</Button>
+        </Card>
+      </Col>
+      <Col sm="4">
+        <Card body className="expBody">
+          <Button outline color="warning" className="projectTitle" href="https://github.com/Ghalileo" target="_blank">GitHub</Button>
+        </Card>
+      </Col>
+    </Row>
     </div>
 
        

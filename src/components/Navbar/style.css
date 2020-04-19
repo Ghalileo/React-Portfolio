@@ -21,5 +21,16 @@ nav.navbar.navbar-default {
 }
 #expB:hover {
   color: white;
+  background-color: purple;
+}
+#aboutB:hover {
+  background-color: red;
 }
 
+#portBut:hover {
+  background-color: orangered;
+}
+#homeB:hover {
+  color: black;
+  background-color: yellow;
+}

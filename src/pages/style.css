@@ -15,6 +15,7 @@
 .headder {
     text-align: center;
     font-family: 'Girassol', cursive;
+    color: lightcyan;
     /* font-family: 'Pacifico', cursive; */
 }
 .presentation {
@@ -27,7 +28,8 @@
     margin-top: 110px;
     filter: grayscale(75%);
     border: 10px solid transparent;
-    border-image: url("../assets/flourish-2031230_1280.png") 30% round;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* border-image: url("../assets/flourish-2031230_1280.png") 30% round; */
     
 
 }
@@ -38,6 +40,7 @@
 .opening {
     margin-top: 230px;
     margin-right: 150px;
+    color: lightcyan;
     font-family: 'Girassol', cursive;
 }
 #statement {
@@ -106,4 +109,17 @@
     border: 10px solid transparent;
     
     border-image: url("../assets/flourish-2031230_1280.png") 30% round;
+}
+#hope{
+    min-height: 100px;
+    background: white;
+    position: relative;
+    /* text-align: center; */
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    opacity: 95%;
+}
+.expBody {
+    background-color: rgba(0, 0, 0, 0.2);
 }
