@@ -130,7 +130,7 @@
 
 .expBody {
     background-color: transparent;
-
+    border: 5px inset grey ;
 }
 
 .expButt {
@@ -231,7 +231,7 @@ color: white;
         width: 200px;
         height: 200px;
         position: relative;
-        left:70px;
+        left:60px;
         top: 200px;
         
     }
@@ -241,14 +241,15 @@ color: white;
         position: relative;
         bottom: 150px;
         font-size: 5px;
-        left:50px;
+        right:30px;
         
         padding-left: 100px;
-        color: tomato;
+        color: white;
     }
     #fullName{
         position: relative;
-        right: 40px;
-        text-align: center;
+        left: 40px;
+        
+        
     }
 }
