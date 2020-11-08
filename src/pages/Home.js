@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import Hero from "../components/Hero";
-import {FaLinkedin} from 'react-icons/fa';
 // import { ion-icon } from 'react-icons/md';
 // import justCoffee from "../assets/justCoffee.png";
 // import loqal from "../assets/loqal.png";
@@ -26,24 +25,17 @@ function Home() {
       <div>
 
         <section id ="homeF"></section>
-        <Hero> 
-            <Row>
-                <Col sm="6">    
-                        <img top width="100%" className ="seattle" src={seattle} alt="seattle" />
-                </Col>
+        <Hero className="theHero"> 
+               
+                      <img top width="100%" className ="seattle" src={seattle} alt="seattle" />
+                
 
-                <Col sm="6">
-                    <div className="opening">
+                
+                    <div className="introSection">
                     <h1 id="fullName">Oseghale Okogbo</h1>
                     <h2 id="oseTitle">Full Stack Web Developer</h2>
-                    {/* <h3 id="statement">Focus: Back-End </h3> */}
+                    
                     </div>
-                </Col>
-            </Row>
-        {/* <img src="https://images.unsplash.com/photo-1516062423079-7ca13cdc7f5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1961&q=80" max width="26%" className="griffin"></img> */}
-            
-          
-          
         </Hero>
         <br/>
         <br/>
@@ -232,11 +224,18 @@ text_snippet
        
     <br/>
     <br/>
-    <hr/>
-    <br/>           
+    <br/>
+    <br/>
+    <br/>
     <br/>
     <section id="experienceC"></section>
     <h1 className="headder" id="contactSection">Contact Me</h1>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
     </div>
 
        

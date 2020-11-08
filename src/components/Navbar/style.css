@@ -23,6 +23,7 @@ nav.navbar.navbar-default {
 #expB{
   background-color: transparent;
   color: white;
+  font-family: 'Dancing Script', cursive;
 }
 
 #expB:hover {
@@ -33,6 +34,7 @@ nav.navbar.navbar-default {
 #aboutB{
   color: white;
   background-color: transparent;
+  font-family: 'Dancing Script', cursive;
 }
 #aboutB:hover {
   color: dodgerblue;
@@ -41,6 +43,7 @@ nav.navbar.navbar-default {
 #portBut{
   background-color: transparent;
   color: white;
+  font-family: 'Dancing Script', cursive;
 }
 #portBut:hover {
   color: dodgerblue;
@@ -53,9 +56,13 @@ nav.navbar.navbar-default {
   color: dodgerblue;
   
 }
+.homeIcon{
+  color: white;
+}
 
 @media (max-width: 756px) {
   .navBarr{
     height: 60px;
   }
 }
+

@@ -34,7 +34,8 @@ const Navv = (props) => {
   return (
     <div>
       <Navbar className="navBarr"  light expand="md">
-        <AnchorLink href='#homeF'><Button id="homeB" variant="contained" color="primary">Home</Button></AnchorLink>
+        <AnchorLink href='#homeF'><Button id="homeB" variant="contained" color="primary"><span class="material-icons homeIcon">home</span></Button></AnchorLink>
+        
         <NavbarToggler onClick={toggle} />
         
         <Collapse isOpen={isOpen} navbar>

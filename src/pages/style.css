@@ -37,13 +37,23 @@
     filter: grayscale(75%);
     border: 10px solid transparent;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    left: 60px;
     /* border-image: url("../assets/flourish-2031230_1280.png") 30% round; */
     
 
 }
 #oseTitle{
     margin-right: 117px;
+    position: relative;
+    left: 60px;
     
+}
+#fullName {
+    margin-right: 85px;
+    font-size: 350%;
+    position: relative;
+    left: 60px;
 }
 .opening {
     margin-top: 230px;
@@ -54,10 +64,7 @@
 #statement {
     margin-right: 110px;
 }
-#fullName {
-    margin-right: 85px;
-    font-size: 350%;
-}
+
 
 .appDescription {
     color: black;
@@ -198,11 +205,50 @@ color: white;
         color: firebrick;
     }
 }
-@media (min-width:375px) and (max-width:812px) {
-    #fullName{
+.seattle{
+    position: relative;
+    bottom: 60px;
+}
+.introSection{
+    position: relative;
+    color: white;
+    bottom: 60px;
+}
+/* @media (min-width:375px) and (max-width:812px) {
+    .introSection{
         
-        float: inherit;
-        padding-bottom: 500px;
+        float: left;
+        
         color: fuchsia;
+    }
+    .seattle{
+        
+        float: left;
+    }
+} */
+@media screen and (max-width:500px){
+    .seattle{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        left:70px;
+        top: 200px;
+        
+    }
+    .introSection{
+        text-align: center;
+        float: right;
+        position: relative;
+        bottom: 150px;
+        font-size: 5px;
+        left:50px;
+        
+        padding-left: 100px;
+        color: tomato;
+    }
+    #fullName{
+        position: relative;
+        right: 40px;
+        text-align: center;
     }
 }
