@@ -20,7 +20,7 @@ function App() {
           
         </Wrapper>
         
-        {/* <Footer/> */}
+        <Footer/>
         {/* <Route exact path={["/","/React-Portfolio"]} component={Footer}/> */}
         {/* <Footer><Route exact path={["/","/React-Portfolio"]} component={Home} /></Footer> */}
       </div>

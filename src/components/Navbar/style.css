@@ -19,18 +19,43 @@ nav.navbar.navbar-default {
   font-family: 'Dancing Script', cursive;
 
 }
-#expB:hover {
+
+#expB{
+  background-color: transparent;
   color: white;
-  background-color: purple;
-}
-#aboutB:hover {
-  background-color: red;
 }
 
+#expB:hover {
+  color: dodgerblue;
+  
+}
+
+#aboutB{
+  color: white;
+  background-color: transparent;
+}
+#aboutB:hover {
+  color: dodgerblue;
+}
+
+#portBut{
+  background-color: transparent;
+  color: white;
+}
 #portBut:hover {
-  background-color: orangered;
+  color: dodgerblue;
+}
+#homeB{
+  color: white;
+  background-color: transparent;
 }
 #homeB:hover {
-  color: black;
-  background-color: yellow;
+  color: dodgerblue;
+  
+}
+
+@media (max-width: 756px) {
+  .navBarr{
+    height: 60px;
+  }
 }

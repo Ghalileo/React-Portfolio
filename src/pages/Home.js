@@ -1,5 +1,7 @@
 import React, {useState} from "react";
 import Hero from "../components/Hero";
+import {FaLinkedin} from 'react-icons/fa';
+// import { ion-icon } from 'react-icons/md';
 // import justCoffee from "../assets/justCoffee.png";
 // import loqal from "../assets/loqal.png";
 // import dayPlanner from "../assets/dayPlanner.png";
@@ -11,7 +13,7 @@ import StickyFooter from 'react-sticky-footer';
 import seattle from "../assets/oseSeattle.jpg";
 import denver from "../assets/oseDenver.jpg"
 // import Carousel from 'react-bootstrap/Carousel'
-import { Card, CardBody, Button, CardTitle, CardSubtitle, CardText, CardImg, UncontrolledCarousel, CardGroup, CardColumns, Col, Row } from 'reactstrap';
+import { Card, CardBody, Button, CardTitle, CardSubtitle, CardText, CardImg, UncontrolledCarousel, CardGroup, CardColumns, Col, Row, Container } from 'reactstrap';
 import "./style.css";
 
 function Home() {
@@ -50,8 +52,9 @@ function Home() {
         <br/>
         <br/>
         
-        <section id ="portF"></section>
+        
         <hr/>
+        <section id ="portF"></section>
         <br/>
         <br />
         <br />
@@ -63,12 +66,12 @@ function Home() {
               <div>
                 <Card >
                   <CardImg top width="20%" id="loq" src="https://images.unsplash.com/photo-1513829596324-4bb2800c5efb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Card image cap" />
-                  <CardBody className="cBody" id="loqalBody">
+                  <CardBody className="cBody" >
                     <CardTitle className="projectTitle"></CardTitle>
                     <CardSubtitle className="projectSubTitle">Loqal</CardSubtitle>
                     <CardText>An application which allows the user to discover new music via genre.</CardText>
-                    <Button outline color="success" href="https://robertharris95.github.io/RDOProject1/" target="_blank" className ="depLink">Deploy</Button>
-                    <Button outline color="danger" href="https://github.com/robertharris95/RDOProject1" target="_blank" className ="depLink2">Repo</Button>
+                    <a href="https://robertharris95.github.io/RDOProject1/" target="_blank" className ="depLink"><span class="material-icons">launch</span></a>
+                    <a outline color="danger" href="https://github.com/robertharris95/RDOProject1" target="_blank" className ="depLink2"><i class="fa fa-github" ></i></a>
                   </CardBody>
                 </Card>
               </div>
@@ -81,8 +84,8 @@ function Home() {
                     <CardTitle className="projectTitle"></CardTitle>
                     <CardSubtitle className="projectSubTitle">Just Coffee</CardSubtitle>
                     <CardText>An application which allows the user to purchase a monthly coffee subscription.</CardText>
-                    <Button outline color="success" href="http://justcoffee.herokuapp.com/" target="_blank" className ="depLink">Deploy</Button>
-                    <Button outline color="danger" href="https://github.com/robinaguilar713/Project02" target="_blank" className ="depLink2">Repo</Button>
+                    <a href="http://justcoffee.herokuapp.com/" target="_blank" className ="depLink"><span class="material-icons">launch</span></a>                   
+                    <a href="https://github.com/robinaguilar713/Project02" target="_blank" className ="depLink2"><i class="fa fa-github" ></i></a>
                   </CardBody>
                 </Card>
               </div>
@@ -91,12 +94,12 @@ function Home() {
               <div>
                 <Card >
                   <CardImg top width="20%" src="https://images.unsplash.com/photo-1540921002383-b2a7ff6a716d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="Card image cap" />
-                  <CardBody className="cBody" id="planBod">
+                  <CardBody className="cBody" >
                     <CardTitle className="projectTitle">Day Planner</CardTitle>
                     <CardSubtitle className="projectSubTitle"></CardSubtitle>
                     <CardText>An application which allows the user to plan out their day based on each hour, and log the events.</CardText>
-                    <Button outline color="success" href="https://ghalileo.github.io/DayPlanner/" target="_blank" className ="depLink">Deploy</Button>
-                    <Button outline color="danger" href="https://github.com/Ghalileo/DayPlanner" target="_blank" className ="depLink2">Repo</Button>
+                    <a href="https://ghalileo.github.io/DayPlanner/" target="_blank" className ="depLink"><span class="material-icons">launch</span></a>
+                    <a href="https://github.com/Ghalileo/DayPlanner" target="_blank" className ="depLink2"><i class="fa fa-github" ></i></a>
                   </CardBody>
                 </Card>
               </div>
@@ -115,8 +118,8 @@ function Home() {
                     <CardTitle className="projectTitle">Note Taker</CardTitle>
                     <CardSubtitle className="projectSubTitle"></CardSubtitle>
                     <CardText>An application which allows users to write down reminders and clear them once they are completed.</CardText>
-                    <Button outline color="success" href="https://morning-chamber-52406.herokuapp.com/" target="_blank" className ="depLink">Deploy</Button>
-                    <Button outline color="danger" href="https://github.com/Ghalileo/Note-Taker" target="_blank" className ="depLink2">Repo</Button>
+                    <a href="https://morning-chamber-52406.herokuapp.com/" target="_blank" className ="depLink"><span class="material-icons">launch</span></a>
+                    <a href="https://github.com/Ghalileo/Note-Taker" target="_blank" className ="depLink2"><i class="fa fa-github" ></i></a>
                   </CardBody>
                 </Card>
               </div>
@@ -129,8 +132,8 @@ function Home() {
                     <CardTitle className="projectTitle">Weather Dashboard</CardTitle>
                     <CardSubtitle className="projectSubTitle"></CardSubtitle>
                     <CardText>An application which allows the user to view the current weather as well as a 5 day forcast in any region.</CardText>
-                    <Button outline color="success" href="https://ghalileo.github.io/Weather-Dashboard/" target="_blank" className ="depLink">Deploy</Button>
-                    <Button outline color="danger" href="https://github.com/Ghalileo/Weather-Dashboard" target="_blank" className ="depLink2">Repo</Button>
+                    <a href="https://ghalileo.github.io/Weather-Dashboard/" target="_blank" className ="depLink"><span class="material-icons">launch</span></a>
+                    <a href="https://github.com/Ghalileo/Weather-Dashboard" target="_blank" className ="depLink2"><i class="fa fa-github" ></i></a>
                   </CardBody>
                 </Card>
               </div>
@@ -143,8 +146,8 @@ function Home() {
                     <CardTitle className="projectTitle">Password Generator</CardTitle>
                     <CardSubtitle className="projectSubTitle"></CardSubtitle>
                     <CardText>An application which allows users to generate a password randomly with a series of letters, numbers and special characters.</CardText>
-                    <Button outline color="success" href="https://ghalileo.github.io/Password-Generator/" target="_blank" className ="depLink">Deploy</Button>
-                    <Button outline color="danger" href="https://github.com/Ghalileo/Password-Generator" target="_blank" className ="depLink2">Repo</Button>
+                    <a href="https://ghalileo.github.io/Password-Generator/" target="_blank" className ="depLink"><span class="material-icons">launch</span></a>
+                    <a href="https://github.com/Ghalileo/Password-Generator" target="_blank" className ="depLink2"><i class="fa fa-github" ></i></a>
                   </CardBody>
                 </Card>
               </div>
@@ -185,9 +188,12 @@ function Home() {
        
     <br/>
     <br/>
+    <section id ="experienceA"></section>
     <hr/>
+    
     <br/>           
     <br/>
+    
     <h1 className="headder" id="portfolioT">Experience</h1>
     <br/>
     <br/>
@@ -195,24 +201,42 @@ function Home() {
     
     
     
-    <section id ="experienceA"></section>
-    <Row>
-      <Col sm="4">
-        <Card body className="expBody">
-          <Button outline color="warning" className="expButt" href="https://www.linkedin.com/in/oseokogbo/" target="_blank">LinkedIn</Button>
+    
+    
+    <CardGroup>
+    <Card body className="expBody">
+          <h3 class="expSubTitle">LinkedIn</h3>
+          {/* <Button outline color="warning" className="expButt" href="https://github.com/Ghalileo" target="_blank">GitHub</Button> */}
+          <a href="https://github.com/Ghalileo" target="_blank"><i class="fa fa-linkedin" id="expLinkedIn"></i></a>
+          
         </Card>
-      </Col>
-      <Col sm="4">
-        <Card body className="expBody">
-          <Button outline color="warning" className="expButt" href="https://drive.google.com/open?id=1bosvyzSrq8X4iUWzoNfenHxHlAkgdyGP" target="_blank">Resume</Button>
+      <Card body className="expBody">
+          <h3 class="expSubTitle">Resume</h3>
+          {/* <Button outline color="warning" className="expButt" href="https://github.com/Ghalileo" target="_blank">GitHub</Button> */}
+          <a href="https://drive.google.com/open?id=1bosvyzSrq8X4iUWzoNfenHxHlAkgdyGP" target="_blank"><span class="material-icons" id="expResume">
+text_snippet
+</span></a>
+          
         </Card>
-      </Col>
-      <Col sm="4">
-        <Card body className="expBody">
-          <Button outline color="warning" className="expButt" href="https://github.com/Ghalileo" target="_blank">GitHub</Button>
+      <Card body className="expBody">
+          <h3 class="expSubTitle">GitHub</h3>
+          {/* <Button outline color="warning" className="expButt" href="https://github.com/Ghalileo" target="_blank">GitHub</Button> */}
+          <a href="https://github.com/Ghalileo" target="_blank"><i class="fa fa-github-square" id="expRepo"></i></a>
+          
         </Card>
-      </Col>
-    </Row>
+    </CardGroup>
+    <br />
+        <br />
+        <br />
+        <br />
+       
+    <br/>
+    <br/>
+    <hr/>
+    <br/>           
+    <br/>
+    <section id="experienceC"></section>
+    <h1 className="headder" id="contactSection">Contact Me</h1>
     </div>
 
        

@@ -1,15 +1,23 @@
 
+
+.depLink{
+    margin-left: 10px;
+    font-size:48px;
+    color: green;
+}
 .depLink2 {
-    margin-left: 200px;
-    
+    /* margin-left: 200px;
+    margin-bottom: 3000px; */
+    float: right;
+    font-size:48px;
+    color: blueviolet;
 }
 .depLink:hover {
     color: crimson;
-    background-color: honeydew;
+    
 }
 .depLink2:hover {
-    background-color: honeydew;
-    color: green;
+    color: cornflowerblue;
     
 }
 .headder {
@@ -121,4 +129,80 @@
 .expButt {
     text-align: center;
     font-family: 'Dancing Script', cursive;
+    font-size: 36px;
+}
+.expButt:hover{
+    background-color: darkgrey;
+}
+.githubIcon {
+    color: white;
+}
+#expRepo{
+    padding-left: 150px;
+    font-size:72px
+
+}
+#expRepo:hover{
+    color: white;
+}
+#expResume{
+    padding-left: 150px;
+
+    font-size: 72px;
+}
+#expResume:hover{
+    color: white;
+}
+#expLinkedIn{
+    padding-left: 150px;
+    font-size: 72px;
+}
+#expLinkedIn:hover{
+    color: white;
+}
+.expSubTitle{
+text-align: center;
+font-family: 'Dancing Script', cursive;
+color: white;
+}
+
+@media (max-width: 756px) {
+    .depLink{
+        margin-left: 100px;
+    }
+    .depLink2{
+       margin-right: 125px;
+    }
+    #oseDenver{
+        align-content: center;
+    }
+    
+    
+}
+
+@media (min-width: 672px) and (max-width:768px) {
+    .expSubTitle{
+        text-align: center;
+        padding-left: 50px;
+    }
+    #expResume{
+        padding-left: 80px;
+        color: firebrick;
+    }
+    #expRepo{
+        padding-left: 100px;
+        color: firebrick;
+    }
+    #expLinkedIn{
+        padding-left: 100px;
+        color: firebrick;
+    }
+}
+@media (min-width:375px) and (max-width:812px) {
+    #fullName{
+        
+        float: inherit;
+        padding-bottom: 500px;
+        color: fuchsia;
+    }
 }
