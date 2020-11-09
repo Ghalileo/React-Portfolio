@@ -130,7 +130,7 @@
 
 .expBody {
     background-color: transparent;
-    border: 5px inset grey ;
+    border: 2px ridge  grey ;
 }
 
 .expButt {
@@ -145,9 +145,10 @@
     color: white;
 }
 #expRepo{
-    padding-left: 150px;
-    font-size:72px
-
+    position: relative;
+    left: 150px;
+    font-size:72px;
+   
 }
 #expRepo:hover{
     color: white;
@@ -197,7 +198,8 @@ color: white;
         color: firebrick;
     }
     #expRepo{
-        padding-left: 100px;
+        position: relative;
+        left: 100px;
         color: firebrick;
     }
     #expLinkedIn{
@@ -252,4 +254,21 @@ color: white;
         
         
     }
+    #expRepo{
+        position: relative;
+        left: 185px;
+        color: black;
+        
+    }
+    #expResume{
+        position: relative;
+        left: 30px;
+        color: black; 
+    }
+    #expLinkedIn{
+        position: relative;
+        left: 30px;
+        color: black;
+    }
 }
+

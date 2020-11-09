@@ -36,23 +36,23 @@ const Navv = (props) => {
       <Navbar className="navBarr"  light expand="md">
         <AnchorLink href='#homeF'><Button id="homeB" variant="contained" color="primary"><span class="material-icons homeIcon">home</span></Button></AnchorLink>
         
-        <NavbarToggler onClick={toggle} />
+        <NavbarToggler id="navToggle" onClick={toggle} />
         
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             
             <NavItem>
-            <AnchorLink href='#portF'><Button id="portBut" variant="contained" color="primary">Portfolio</Button></AnchorLink>
+            <AnchorLink href='#portF'><Button className="navLinks" id="portBut" variant="contained" color="primary">Portfolio</Button></AnchorLink>
             </NavItem>
             
             <NavItem>
-              <AnchorLink href='#experienceF'><Button id="aboutB" variant="contained" color="primary">About Me</Button></AnchorLink>
+              <AnchorLink href='#experienceF'><Button className="navLinks" id="aboutB" variant="contained" color="primary">About Me</Button></AnchorLink>
             </NavItem>
             <NavItem>
-              <AnchorLink href='#experienceA'><Button id ="expB" variant="contained" color="primary">Experience</Button></AnchorLink>
+              <AnchorLink href='#experienceA'><Button className="navLinks" id ="expB" variant="contained" color="primary">Experience</Button></AnchorLink>
             </NavItem>
             <NavItem>
-              <AnchorLink href='#experienceC'><Button id ="expB" variant="contained" color="primary">Contact</Button></AnchorLink>
+              <AnchorLink href='#experienceC'><Button className="navLinks" id ="expB" variant="contained" color="primary">Contact</Button></AnchorLink>
             </NavItem>
             {/* <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
