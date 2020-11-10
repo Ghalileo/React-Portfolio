@@ -257,18 +257,21 @@ color: white;
     #expRepo{
         position: relative;
         left: 185px;
-        color: black;
+        color: blue;
         
     }
     #expResume{
         position: relative;
         left: 30px;
-        color: black; 
+        color: blue; 
     }
     #expLinkedIn{
         position: relative;
         left: 30px;
-        color: black;
+        color: blue;
+    }
+    .expBody{
+        background-color: black;
     }
 }
 
