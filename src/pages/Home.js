@@ -236,6 +236,10 @@ text_snippet
     <br/>
     <br/>
     <br/>
+    <h2 id="contactSubHeader">Oseghale Okogbo 2020</h2>
+      <h3><span class="material-icons" id="mailIcons" >
+mail
+</span><a href="mailto:ose.okogbo@gmail.com" id="contactEmail">ose.okogbo@gmail.com</a></h3>
     </div>
 
        

@@ -216,6 +216,18 @@ color: white;
     color: white;
     bottom: 60px;
 }
+#mailIcons {
+  position: relative;
+  top:5px;
+  right: 5px;
+  color: aliceblue;
+}
+#mailIcons:hover{
+  color: bisque;
+}
+#contactSubHeader{
+    color: white;
+}
 /* @media (min-width:375px) and (max-width:812px) {
     .introSection{
         
