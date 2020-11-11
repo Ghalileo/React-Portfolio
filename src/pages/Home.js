@@ -199,7 +199,7 @@ function Home() {
     <Card body className="expBody">
           <h3 class="expSubTitle">LinkedIn</h3>
           {/* <Button outline color="warning" className="expButt" href="https://github.com/Ghalileo" target="_blank">GitHub</Button> */}
-          <a href="https://github.com/Ghalileo" target="_blank"><i class="fa fa-linkedin" id="expLinkedIn"></i></a>
+          <a href="https://www.linkedin.com/in/oseokogbo/" target="_blank"><i class="fa fa-linkedin" id="expLinkedIn"></i></a>
           
         </Card>
       <Card body className="expBody">
