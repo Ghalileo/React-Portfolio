@@ -3,7 +3,7 @@
    
     position: relative;
     /* text-align: center; */
-    color: black;
+    color: white;
     font-style: italic;
     font-weight: bold;
     opacity: 95%;
@@ -36,8 +36,26 @@ h2{
 h3{
   text-align: center;
 }
-.footer{
- 
-  border-style: black;
-  border-top: black;
+
+#contactEmail:hover{
+  color: blueviolet;
+}
+#mailIcon {
+  position: relative;
+  top:5px;
+  right: 2000px;
+}
+#mailIcon:hover{
+  color: bisque;
+}
+
+@media screen and (max-width: 764px) {
+  h2{
+    font-size:35px;
+    font-family: 'Dancing Script', cursive;
+  }
+  h3{
+    font-size: 25px;
+    
+  }
 }
