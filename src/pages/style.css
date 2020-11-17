@@ -39,6 +39,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: relative;
     left: 60px;
+    background-color: whitesmoke;
     /* border-image: url("../assets/flourish-2031230_1280.png") 30% round; */
     
 
@@ -210,6 +211,10 @@ color: white;
 .seattle{
     position: relative;
     bottom: 60px;
+    filter:grayscale();
+}
+.seattle:hover{
+    filter:none;
 }
 .introSection{
     position: relative;

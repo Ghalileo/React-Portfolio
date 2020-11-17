@@ -12,6 +12,7 @@ import StickyFooter from 'react-sticky-footer';
 import seattle from "../assets/oseSeattle.jpg";
 import denver from "../assets/oseDenver.jpg"
 // import Carousel from 'react-bootstrap/Carousel'
+import { AnimationWrapper } from 'react-hover-animation';
 import { Card, CardBody, Button, CardTitle, CardSubtitle, CardText, CardImg, UncontrolledCarousel, CardGroup, CardColumns, Col, Row, Container } from 'reactstrap';
 import "./style.css";
 
@@ -26,9 +27,9 @@ function Home() {
 
         <section id ="homeF"></section>
         <Hero className="theHero"> 
-               
+                      <AnimationWrapper>
                       <img top width="100%" className ="seattle" src={seattle} alt="seattle" />
-                
+                      </AnimationWrapper>
 
                 
                     <div className="introSection">
