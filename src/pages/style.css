@@ -295,16 +295,25 @@ color: white;
 @media (min-width:375px) and (max-width:812px){
     #expRepo {
         position: relative;
-        left: 150px;
+        left: 137px;
         color: blue;
     }
     #expLinkedIn{
         position: relative;
-        left:-10px;
+        left:-15px;
     }
     #expResume{
         position: relative;
-        left: -10px;
+        left: -19px;
         color: blue;
+    }
+    .seattle{
+        position: relative;
+        left:67px;
+        top:220px;
+    }
+    #oseDenver{
+        position: relative;
+        left:20px;
     }
 }
