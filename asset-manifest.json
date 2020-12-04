@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.f69a3e4f.chunk.css",
+    "main.css": "/React-Portfolio/static/css/main.5ccb8ec4.chunk.css",
     "main.js": "/React-Portfolio/static/js/main.076c2103.chunk.js",
     "main.js.map": "/React-Portfolio/static/js/main.076c2103.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.0af1ea3a.js",
@@ -8,9 +8,9 @@
     "static/js/2.a68bab20.chunk.js": "/React-Portfolio/static/js/2.a68bab20.chunk.js",
     "static/js/2.a68bab20.chunk.js.map": "/React-Portfolio/static/js/2.a68bab20.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
-    "precache-manifest.c5506de41b1bd5fba15876276686cfb3.js": "/React-Portfolio/precache-manifest.c5506de41b1bd5fba15876276686cfb3.js",
+    "precache-manifest.7b2969431e6569fc6a029ba302ed7488.js": "/React-Portfolio/precache-manifest.7b2969431e6569fc6a029ba302ed7488.js",
     "service-worker.js": "/React-Portfolio/service-worker.js",
-    "static/css/main.f69a3e4f.chunk.css.map": "/React-Portfolio/static/css/main.f69a3e4f.chunk.css.map",
+    "static/css/main.5ccb8ec4.chunk.css.map": "/React-Portfolio/static/css/main.5ccb8ec4.chunk.css.map",
     "static/js/2.a68bab20.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.a68bab20.chunk.js.LICENSE.txt",
     "static/media/style.css": "/React-Portfolio/static/media/flourish-2031230_1280.2bcfc89b.png",
     "static/media/oseDenver.jpg": "/React-Portfolio/static/media/oseDenver.7560a8cc.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.0af1ea3a.js",
     "static/js/2.a68bab20.chunk.js",
-    "static/css/main.f69a3e4f.chunk.css",
+    "static/css/main.5ccb8ec4.chunk.css",
     "static/js/main.076c2103.chunk.js"
   ]
 }
