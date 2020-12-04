@@ -292,3 +292,19 @@ color: white;
     }
 }
 
+@media (min-width:375px) and (max-width:812px){
+    #expRepo {
+        position: relative;
+        left: 150px;
+        color: blue;
+    }
+    #expLinkedIn{
+        position: relative;
+        left:-10px;
+    }
+    #expResume{
+        position: relative;
+        left: -10px;
+        color: blue;
+    }
+}
