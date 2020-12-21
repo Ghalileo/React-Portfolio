@@ -40,9 +40,21 @@
     position: relative;
     left: 60px;
     background-color: whitesmoke;
+    -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   filter: grayscale(100%);
+   transition: all 0.5s ease;
+   border: 10px solid transparent;
+  padding: 5px;
     /* border-image: url("../assets/flourish-2031230_1280.png") 30% round; */
     
 
+}
+.seattle:hover{
+    -webkit-filter: grayscale(0%);
+   -moz-filter: grayscale(0%);
+   filter: grayscale(0%);
+   cursor:pointer;
 }
 #oseTitle{
     margin-right: 117px;
@@ -213,9 +225,7 @@ color: white;
     bottom: 60px;
     filter:grayscale();
 }
-.seattle:hover{
-    filter:none;
-}
+
 .introSection{
     position: relative;
     color: white;
@@ -300,16 +310,16 @@ color: white;
     }
     #expLinkedIn{
         position: relative;
-        left:-15px;
+        left:-10px;
     }
     #expResume{
         position: relative;
-        left: -19px;
+        left: -15px;
         color: blue;
     }
     .seattle{
         position: relative;
-        left:67px;
+        left:63px;
         top:220px;
     }
     #oseDenver{
