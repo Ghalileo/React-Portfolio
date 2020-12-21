@@ -3,7 +3,7 @@
 .depLink{
     margin-left: 10px;
     font-size:48px;
-    color: green;
+    color: ;
 }
 .depLink2 {
     /* margin-left: 200px;
@@ -13,11 +13,11 @@
     color: blueviolet;
 }
 .depLink:hover {
-    color: crimson;
+    color: green;
     
 }
 .depLink2:hover {
-    color: cornflowerblue;
+    color:cornflowerblue
     
 }
 .headder {
