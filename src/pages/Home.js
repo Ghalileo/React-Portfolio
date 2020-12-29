@@ -7,8 +7,8 @@ import Hero from "../components/Hero";
 // import noteTaker from "../assets/noteTaker.png";
 // import weatherDash from "../assets/weatherDash.png";
 // import passwordGen from "../assets/passwordGen.png";
-import Footer from "../components/Footer";
-import StickyFooter from 'react-sticky-footer';
+// import Footer from "../components/Footer";
+// import StickyFooter from 'react-sticky-footer';
 import seattle from "../assets/oseSeattle.jpg";
 import denver from "../assets/oseDenver.jpg"
 // import Carousel from 'react-bootstrap/Carousel'
@@ -63,8 +63,8 @@ function Home() {
                     <CardTitle className="projectTitle"></CardTitle>
                     <CardSubtitle className="projectSubTitle">Loqal</CardSubtitle>
                     <CardText>An application which allows the user to discover new music via genre.</CardText>
-                    <a href="https://robertharris95.github.io/RDOProject1/" target="_blank" className ="depLink"><span class="material-icons">launch</span></a>
-                    <a outline color="danger" href="https://github.com/robertharris95/RDOProject1" target="_blank" className ="depLink2"><i class="fa fa-github" ></i></a>
+                    <a href="https://robertharris95.github.io/RDOProject1/" target="_blank" rel="noopener" className ="depLink"><span class="material-icons">launch</span></a>
+                    <a outline color="danger" href="https://github.com/robertharris95/RDOProject1" target="_blank" rel="noopener" className ="depLink2"><i class="fa fa-github" ></i></a>
                   </CardBody>
                 </Card>
               </div>
@@ -77,8 +77,8 @@ function Home() {
                     <CardTitle className="projectTitle"></CardTitle>
                     <CardSubtitle className="projectSubTitle">Just Coffee</CardSubtitle>
                     <CardText>An application which allows the user to purchase a monthly coffee subscription.</CardText>
-                    <a href="http://justcoffee.herokuapp.com/" target="_blank" className ="depLink"><span class="material-icons">launch</span></a>                   
-                    <a href="https://github.com/robinaguilar713/Project02" target="_blank" className ="depLink2"><i class="fa fa-github" ></i></a>
+                    <a href="http://justcoffee.herokuapp.com/" target="_blank" rel="noopener" className ="depLink"><span class="material-icons">launch</span></a>                   
+                    <a href="https://github.com/robinaguilar713/Project02" target="_blank" rel="noopener" className ="depLink2"><i class="fa fa-github" ></i></a>
                   </CardBody>
                 </Card>
               </div>
@@ -91,8 +91,8 @@ function Home() {
                     <CardTitle className="projectTitle">Day Planner</CardTitle>
                     <CardSubtitle className="projectSubTitle"></CardSubtitle>
                     <CardText>An application which allows the user to plan out their day based on each hour, and log the events.</CardText>
-                    <a href="https://ghalileo.github.io/DayPlanner/" target="_blank" className ="depLink"><span class="material-icons">launch</span></a>
-                    <a href="https://github.com/Ghalileo/DayPlanner" target="_blank" className ="depLink2"><i class="fa fa-github" ></i></a>
+                    <a href="https://ghalileo.github.io/DayPlanner/" target="_blank" rel="noopener" className ="depLink"><span class="material-icons">launch</span></a>
+                    <a href="https://github.com/Ghalileo/DayPlanner" target="_blank" rel="noopener" className ="depLink2"><i class="fa fa-github" ></i></a>
                   </CardBody>
                 </Card>
               </div>
@@ -111,8 +111,8 @@ function Home() {
                     <CardTitle className="projectTitle">Note Taker</CardTitle>
                     <CardSubtitle className="projectSubTitle"></CardSubtitle>
                     <CardText>An application which allows users to write down reminders and clear them once they are completed.</CardText>
-                    <a href="https://morning-chamber-52406.herokuapp.com/" target="_blank" className ="depLink"><span class="material-icons">launch</span></a>
-                    <a href="https://github.com/Ghalileo/Note-Taker" target="_blank" className ="depLink2"><i class="fa fa-github" ></i></a>
+                    <a href="https://morning-chamber-52406.herokuapp.com/" target="_blank" rel="noopener" className ="depLink"><span class="material-icons">launch</span></a>
+                    <a href="https://github.com/Ghalileo/Note-Taker" target="_blank" rel="noopener" className ="depLink2"><i class="fa fa-github" ></i></a>
                   </CardBody>
                 </Card>
               </div>
@@ -125,8 +125,8 @@ function Home() {
                     <CardTitle className="projectTitle">Weather Dashboard</CardTitle>
                     <CardSubtitle className="projectSubTitle"></CardSubtitle>
                     <CardText>An application which allows the user to view the current weather as well as a 5 day forcast in any region.</CardText>
-                    <a href="https://ghalileo.github.io/Weather-Dashboard/" target="_blank" className ="depLink"><span class="material-icons">launch</span></a>
-                    <a href="https://github.com/Ghalileo/Weather-Dashboard" target="_blank" className ="depLink2"><i class="fa fa-github" ></i></a>
+                    <a href="https://ghalileo.github.io/Weather-Dashboard/" target="_blank" rel="noopener" className ="depLink"><span class="material-icons">launch</span></a>
+                    <a href="https://github.com/Ghalileo/Weather-Dashboard" target="_blank" rel="noopener" className ="depLink2"><i class="fa fa-github" ></i></a>
                   </CardBody>
                 </Card>
               </div>
@@ -139,8 +139,8 @@ function Home() {
                     <CardTitle className="projectTitle">Password Generator</CardTitle>
                     <CardSubtitle className="projectSubTitle"></CardSubtitle>
                     <CardText>An application which allows users to generate a password randomly with a series of letters, numbers and special characters.</CardText>
-                    <a href="https://ghalileo.github.io/Password-Generator/" target="_blank" className ="depLink"><span class="material-icons">launch</span></a>
-                    <a href="https://github.com/Ghalileo/Password-Generator" target="_blank" className ="depLink2"><i class="fa fa-github" ></i></a>
+                    <a href="https://ghalileo.github.io/Password-Generator/" target="_blank" rel="noopener" className ="depLink"><span class="material-icons">launch</span></a>
+                    <a href="https://github.com/Ghalileo/Password-Generator" target="_blank" rel="noopener" className ="depLink2"><i class="fa fa-github" ></i></a>
                   </CardBody>
                 </Card>
               </div>
@@ -200,13 +200,13 @@ function Home() {
     <Card body className="expBody">
           <h3 class="expSubTitle">LinkedIn</h3>
           {/* <Button outline color="warning" className="expButt" href="https://github.com/Ghalileo" target="_blank">GitHub</Button> */}
-          <a href="https://www.linkedin.com/in/oseokogbo/" target="_blank"><i class="fa fa-linkedin" id="expLinkedIn"></i></a>
+          <a href="https://www.linkedin.com/in/oseokogbo/" target="_blank" rel="noopener" ><i class="fa fa-linkedin" id="expLinkedIn"></i></a>
           
         </Card>
       <Card body className="expBody">
           <h3 class="expSubTitle">Resume</h3>
           {/* <Button outline color="warning" className="expButt" href="https://github.com/Ghalileo" target="_blank">GitHub</Button> */}
-          <a href="https://drive.google.com/open?id=1bosvyzSrq8X4iUWzoNfenHxHlAkgdyGP" target="_blank"><span class="material-icons" id="expResume">
+          <a href="https://drive.google.com/open?id=1bosvyzSrq8X4iUWzoNfenHxHlAkgdyGP" target="_blank" rel="noopener"><span class="material-icons" id="expResume">
 text_snippet
 </span></a>
           
@@ -214,7 +214,7 @@ text_snippet
       <Card body className="expBody" id="gitHubButtonSection">
           <h3 class="expSubTitle">GitHub</h3>
           {/* <Button outline color="warning" className="expButt" href="https://github.com/Ghalileo" target="_blank">GitHub</Button> */}
-          <a href="https://github.com/Ghalileo" target="_blank"><i class="fa fa-github-square" id="expRepo"></i></a>
+          <a href="https://github.com/Ghalileo" target="_blank" rel="noopener"><i class="fa fa-github-square" id="expRepo"></i></a>
           
         </Card>
     </CardGroup>
