@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.5b164a71.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.076c2103.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.076c2103.chunk.js.map",
+    "main.css": "/React-Portfolio/static/css/main.9ea2e92b.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.cfd124d8.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.cfd124d8.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.0af1ea3a.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.0af1ea3a.js.map",
-    "static/js/2.a68bab20.chunk.js": "/React-Portfolio/static/js/2.a68bab20.chunk.js",
-    "static/js/2.a68bab20.chunk.js.map": "/React-Portfolio/static/js/2.a68bab20.chunk.js.map",
+    "static/js/2.d3916445.chunk.js": "/React-Portfolio/static/js/2.d3916445.chunk.js",
+    "static/js/2.d3916445.chunk.js.map": "/React-Portfolio/static/js/2.d3916445.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
-    "precache-manifest.09d8f4b3a6a2a4eebb27eec6112f5425.js": "/React-Portfolio/precache-manifest.09d8f4b3a6a2a4eebb27eec6112f5425.js",
+    "precache-manifest.b4efb553f6f700d6f1eb9d04838f60f0.js": "/React-Portfolio/precache-manifest.b4efb553f6f700d6f1eb9d04838f60f0.js",
     "service-worker.js": "/React-Portfolio/service-worker.js",
-    "static/css/main.5b164a71.chunk.css.map": "/React-Portfolio/static/css/main.5b164a71.chunk.css.map",
-    "static/js/2.a68bab20.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.a68bab20.chunk.js.LICENSE.txt",
+    "static/css/main.9ea2e92b.chunk.css.map": "/React-Portfolio/static/css/main.9ea2e92b.chunk.css.map",
+    "static/js/2.d3916445.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.d3916445.chunk.js.LICENSE.txt",
     "static/media/style.css": "/React-Portfolio/static/media/flourish-2031230_1280.2bcfc89b.png",
     "static/media/oseDenver.jpg": "/React-Portfolio/static/media/oseDenver.7560a8cc.jpg",
     "static/media/oseSeattle.jpg": "/React-Portfolio/static/media/oseSeattle.40e26848.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.0af1ea3a.js",
-    "static/js/2.a68bab20.chunk.js",
-    "static/css/main.5b164a71.chunk.css",
-    "static/js/main.076c2103.chunk.js"
+    "static/js/2.d3916445.chunk.js",
+    "static/css/main.9ea2e92b.chunk.css",
+    "static/js/main.cfd124d8.chunk.js"
   ]
 }
