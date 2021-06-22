@@ -86,7 +86,7 @@ function Home() {
             <Col sm="4">
               <div>
                 <Card >
-                  <CardImg top width="20%" src="https://images.unsplash.com/photo-1540921002383-b2a7ff6a716d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="Card image cap" />
+                  <CardImg top width="20%" src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80" alt="Card image cap" />
                   <CardBody className="cBody" >
                     <CardTitle className="projectTitle">Day Planner</CardTitle>
                     <CardSubtitle className="projectSubTitle"></CardSubtitle>
