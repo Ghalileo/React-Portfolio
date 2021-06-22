@@ -5,6 +5,7 @@
   "author": "Syed Muaz Ali",
   "private": true,
   "dependencies": {
+<<<<<<< HEAD
     "@fortawesome/free-regular-svg-icons": "^5.12.1",
     "@primer/octicons-react": "^9.6.0",
     "animate.css": "^3.7.2",
@@ -32,6 +33,14 @@
     "gatsby-transformer-remark": "2.6.45",
     "gatsby-transformer-sharp": "2.3.9",
     "origen-react-instagram-feed": "^0.0.3",
+=======
+    "@material-ui/core": "^4.9.10",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.21.1",
+    "gh-pages-deploy": "^0.5.1",
+>>>>>>> 4c29b6b3d44e98599a3c41e59884e58a55beb7f2
     "react": "^16.13.1",
     "react-animated-css": "^1.2.1",
     "react-bootstrap": "^1.0.0-beta.17",
