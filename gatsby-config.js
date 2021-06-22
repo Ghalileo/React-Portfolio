@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: 'Retro - One Page Resume Template',
+    title: 'Ghalileo - One Page Resume ',
     description:
-      'Retro is a modern stylish one page resume template built using React and Gatsby',
+      'The Personal Portfolio of Ose Okogbo',
   },
-  pathPrefix: '/',
+  pathPrefix: '/React-Portfolio',
   plugins: [
     {
       resolve: 'gatsby-source-filesystem',
