@@ -1,0 +1,265 @@
+.portfolio {
+    background-color: #000;
+    @media (max-width:991px) {
+        margin-top: 40px;
+    }
+    .row {
+        display: flex;
+        flex-wrap: inherit;
+        overflow: hidden;
+        min-height: 100%;
+        padding: 0;
+        @media (max-width:991px) {
+            display: block;
+            flex-wrap: wrap;
+        }
+        .side {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            background-color: #251170;
+            .baffle_text {
+                transform: rotate(-90deg);
+                text-align: center;
+                span {
+                    color: #fff;
+                    font-family: Poppins;
+                    font-size: 60px;
+                    margin: 10px 0 20px 0;
+                    line-height: 60px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    letter-spacing: 10px;
+                }
+            }
+            @media (max-width:991px) {
+                height: 100px;
+                width: 100%;
+                .baffle_text {
+                    transform: inherit;
+                    span {
+                        font-size: 40px;
+                        line-height: 40px;
+                    }
+                }
+            }
+        }
+        .recent-works {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 0 5%;
+            background-color: #000;
+            .portfolio_container {
+                margin-top: 20px;
+                .portfolio_item {
+                    margin-bottom: 10px;
+                    display: inline-block;
+                    padding: 0 5px;
+                    position: relative;
+                    cursor: pointer;
+                    img {
+                        width: 100%;
+                        object-fit: cover;
+                        margin-bottom: 0;
+                    }
+                    .Tilt {
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        top: 0;
+                        .overlay {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            height: 100%;
+                            transition: .5s;
+                            position: absolute;
+                            top: 10%;
+                            left: 10%;
+                            height: 80%;
+                            width: 80%;
+                            background-color: #ffffff;
+                            opacity: 0;
+                            padding: 20px;
+        background: rgba(0, 0, 0, 0.6);
+        color: #fff;
+        font: 18px Arial, sans-serif;
+                            span {
+                                z-index: 100;
+                                color: #fff;
+                                font-size: 20px;
+                                text-align: center;
+                            }
+                        }
+                        &:hover > .overlay {
+                            opacity: 1;
+                            font: xx-large;
+                        }
+                    }.cardHeader{
+                        color: deeppink;
+                        opacity: 1;
+                    }
+                }
+            }
+            .portfolio_selector {
+                display: flex;
+                position: absolute;
+                top: 8%;
+                @media (max-width:1024px) {
+                    top: 28%;
+                }
+                @media (max-width: 991px) {
+                    position: relative;
+                    top: 0%;
+                    margin-top: 40px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .portfolio_category {
+                    background-color: transparent;
+                    border: none;
+                    &:focus {
+                        outline: none;
+                    }
+                    span {
+                        color: #fff;
+                        font-family: Poppins;
+                        margin-right: 40px;
+                        position: relative;
+                        cursor: pointer;
+                        padding-bottom: 2px;
+                        &:after {
+                            content: '';
+                            position: absolute;
+                            height: 2px;
+                            width: 100%;
+                            left: 0;
+                            bottom: 0;
+                            visibility: hidden;
+                            background-color: #eb83f8;
+                            -webkit-transition: all .1s ease;
+                            transition: all 0.3s ease;  
+                            -webkit-transform: scaleX(0);
+                            -ms-transform: scaleX(0);
+                            transform: scaleX(0);
+                        }
+                        &:hover, &.active {
+                            &:after {
+                                visibility: visible;
+                                -webkit-transform: scaleX(1);
+                                -ms-transform: scaleX(1);
+                                transform: scaleX(1);
+                            }
+                        }
+                    }
+                    @media (max-width: 991px) {
+                        margin: 5px;
+                        span {
+                            margin-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// .deployIcon{
+ 
+ 
+// }
+.repoIcon{
+font-size: medium;
+position: relative;
+left: 50px;
+}
+.displayPortfolioApp:hover{
+    opacity: 50%;
+}
+.appDescription{
+    font-size: small;
+}
+.appRepoCol{
+    position:relative;
+    left: 120px;
+    
+}
+#repoIcon{
+    color: cyan;
+    opacity: 0.8;
+    transition: 0.9s;
+}
+#deployIcon{
+    color: cyan;
+    opacity: 0.8;
+    transition: 0.9s;
+}
+#deployIcon:hover {
+    color: chartreuse;
+    transition: 0.9s;
+    opacity: 1;
+}
+#repoIcon:hover{
+    color: chartreuse;
+    transition: 0.9s;
+    opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+    #repoIcon{
+       position: sticky;
+       bottom: -40%;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    // Section used to hide portfolio for mobile screen
+    .portfolio_category{
+        display: none;
+    }
+    .content{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .mobileCardDescription{
+        color: white;
+        position: relative;
+        left: 100px;
+        border: solid;
+        border-color: white;
+        text-align: center;
+    }
+    .mobilePortHeader{
+        color: white;
+        position: relative;
+        left: 100px;
+        text-align: center;
+    }
+    .appDeployColMobile, .appRepoColMobile{
+        display:inline-block;
+        
+
+    }
+    .appDeployColMobile{
+        position: relative;
+        right: 50px;
+    }
+     .appRepoColMobile {
+         position: relative;
+         left: 50px;
+     }
+    #mobileCardBody{
+        background-color: white;
+    }
+}
+@media screen and (min-width: 600px){
+    .mobileContent{
+        display: none;
+    }
+}
