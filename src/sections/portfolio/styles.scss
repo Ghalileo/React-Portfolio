@@ -212,6 +212,9 @@ left: 50px;
        position: sticky;
        bottom: -40%;
     }
+    .Tilt{
+        display: none;
+    }
 }
 
 
@@ -257,9 +260,27 @@ left: 50px;
     #mobileCardBody{
         background-color: white;
     }
+    .portfolioMobileItem{
+        background-color: black;
+        color: white;
+        text-align: left;
+    }
+    .mobileDeployIcon{
+        position: relative;
+        
+        
+    }
+    .mobileRepoIcon{
+        position: relative;
+        left: 205px;
+        color: #251170;
+    }
+    
 }
 @media screen and (min-width: 600px){
     .mobileContent{
         display: none;
+
     }
+    
 }

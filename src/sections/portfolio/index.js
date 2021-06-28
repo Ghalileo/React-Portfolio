@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/control-has-associated-label */
-import React from 'react'
+import React, {useRef, useState} from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import './styles.scss'
-import { Row, Col, Card } from 'react-bootstrap'
+import { Row, Col, Card, Tab, Sonnet } from 'react-bootstrap'
 import AnimationContainer from 'components/animation-container'
 import BaffleText from 'components/baffle-text'
 import Tilt from 'react-tilt'
@@ -11,21 +11,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faRocket } from '@fortawesome/free-solid-svg-icons'
 import { faGithubSquare, faNodeJs, faGitSquare } from '@fortawesome/free-brands-svg-icons'
 import { EditOutlined, EllipsisOutlined, SettingOutlined } from '@ant-design/icons';
-import TouchCarousel from 'react-touch-carousel'
-import { Carousel } from 'antd';
-
-const contentStyle = {
-  height: '160px',
-  color: '#fff',
-  lineHeight: '160px',
-  textAlign: 'center',
-  background: '#7d75eb',
-};
-
-
-  
-  
-  
+import { List, Typography, Divider } from 'antd';
+import ListGroup from 'react-bootstrap/ListGroup'
+// Import Swiper styles
 
 
 
@@ -58,157 +46,9 @@ class Portfolio extends React.Component {
   }
   
 
-  render() {
-   
-
-    const data = [
-  
-      {
-        title: 'Card 1',
-        background: '#0072bb',
-        text: `react-touch-carousel only handles the trouble parts, i.e.
-        - touch gestures parsing
-        - scroll cursor rounding and modding
-        - items padding and looping
-        - auto playing`
-      },
-      {
-        title: 'Card 2',
-        background: '#ff4c3b',
-        text: `It is left up to you to
-        - decide the carousel structure
-        - render each item in the carousel
-        - style everything
-        - add some fancy decorators like dots`
-      },
-      {
-        title: 'Card 3',
-        background: '#ffca18',
-        text: `Install it by
-        - npm install --save react-touch-carousel`
-      },
-      {
-        title: 'Card 4',
-        background: '#44c1c1',
-        text: `See some example code in the '/examples' dir at GitHub. And you can run and play with the code after cloning it, by
-        - npm install
-        - npm run dev
-        - open localhost:5000`
-      },
-      {
-        title: 'Card 5',
-        background: '#29c53c',
-        text: 'react-touch-carousel is released under MIT license'
-      }
-    ]
-
-    function renderCard (index, modIndex, cursor) {
-      const item = data[modIndex]
-      // render the item
-    } 
-
-    function CarouselContainer (props) {
-      // render the carousel structure<Carousel effect="fade">
-      
-      return (
-        <Carousel effect="fade" autoplay="true" id="mobileCardBody">
-        <div>
-        <Card border="light" style={{ width: '18rem' }}>
-          <Card.Header className="mobilePortHeader">Zoriliz</Card.Header>
-            <Card.Body >
-              <Card.Text className="mobileCardDescription">
-                A Personal React portfolio.  Hosted via netlify.
-                  <Row>
-                    <Col className="appDeployColMobile"><a href="http://www.zoriliz.com" target="_blank" rel="noopener norferrer"><FontAwesomeIcon id="deployIcon" icon={faRocket} size='2x' /></a></Col>
-                    <Col className="appRepoColMobile"><a href="https://github.com/Ghalileo/Zoriliz-Portfolio" target="_blank" rel="noopener norferrer"><FontAwesomeIcon id="repoIcon"icon={faGitSquare} size='2x' /></a></Col>
-                  </Row>
-              </Card.Text>
-      
-            </Card.Body>
-        </Card>
-        
-        </div>
-        <div>
-        <Card border="light" style={{ width: '18rem' }}>
-          <Card.Header className="mobilePortHeader">AMPR-Showroom</Card.Header>
-            <Card.Body >
-              <Card.Text className="mobileCardDescription">
-              An Ecommerce website hosted via shopify.
-                  <Row>
-                    <Col className="appDeployColMobile"><a href="https://www.amprshowroom.com/" target="_blank" rel="noopener norferrer"><FontAwesomeIcon id="deployIcon" icon={faRocket} size='2x' /></a></Col>
-                    <Col className="appRepoColMobile"><a href="https://www.shopify.com/" target="_blank" rel="noopener norferrer"><FontAwesomeIcon id="repoIcon"icon={faGitSquare} size='2x' /></a></Col>
-                  </Row>
-              </Card.Text>
-      
-            </Card.Body>
-        </Card>
-        </div>
-        <div>
-        <Card border="light" style={{ width: '18rem' }}>
-          <Card.Header className="mobilePortHeader">Loqal</Card.Header>
-            <Card.Body >
-              <Card.Text className="mobileCardDescription">
-              Application built using API Integration to help users discover new music
-                  <Row>
-                    <Col className="appDeployColMobile"><a href="https://robertharris95.github.io/RDOProject1/" target="_blank" rel="noopener norferrer"><FontAwesomeIcon id="deployIcon" icon={faRocket} size='2x' /></a></Col>
-                    <Col className="appRepoColMobile"><a href="https://github.com/robertharris95/RDOProject1" target="_blank" rel="noopener norferrer"><FontAwesomeIcon id="repoIcon"icon={faGitSquare} size='2x' /></a></Col>
-                  </Row>
-              </Card.Text>
-      
-            </Card.Body>
-        </Card>
-        </div>
-        <div>
-        <Card border="light" style={{ width: '18rem' }}>
-          <Card.Header className="mobilePortHeader">Pass Generator</Card.Header>
-            <Card.Body >
-              <Card.Text className="mobileCardDescription">
-              An application which allows users to generate a random password.
-                  <Row>
-                    <Col className="appDeployColMobile"><a href="https://ghalileo.github.io/Password-Generator/" target="_blank" rel="noopener norferrer"><FontAwesomeIcon id="deployIcon" icon={faRocket} size='2x' /></a></Col>
-                    <Col className="appRepoColMobile"><a href="https://github.com/Ghalileo/Password-Generator" target="_blank" rel="noopener norferrer"><FontAwesomeIcon id="repoIcon"icon={faGitSquare} size='2x' /></a></Col>
-                  </Row>
-              </Card.Text>
-      
-            </Card.Body>
-        </Card>
-        </div>
-        
-        <div>
-        <Card border="light" style={{ width: '18rem' }}>
-          <Card.Header className="mobilePortHeader">Team Profile Generator</Card.Header>
-            <Card.Body >
-              <Card.Text className="mobileCardDescription">
-              An app which allows the user to create a team based on role.
-                  <Row>
-                    <Col className="appDeployColMobile"><a href="https://github.com/Ghalileo/Team-Profile-Generator" target="_blank" rel="noopener norferrer"><FontAwesomeIcon id="deployIcon" icon={faRocket} size='2x' /></a></Col>
-                    <Col className="appRepoColMobile"><a href="https://github.com/Ghalileo/Team-Profile-Generator" target="_blank" rel="noopener norferrer"><FontAwesomeIcon id="repoIcon"icon={faGitSquare} size='2x' /></a></Col>
-                  </Row>
-              </Card.Text>
-      
-            </Card.Body>
-        </Card>
-        </div>
-        <div>
-        <Card border="light" style={{ width: '18rem' }}>
-          <Card.Header className="mobilePortHeader">Oya Abeo</Card.Header>
-            <Card.Body >
-              <Card.Text className="mobileCardDescription">
-              An Ecommerce website hosted via shopify.
-                  <Row>
-                    <Col className="appDeployColMobile"><a href="http://www.oyaabeo.com" target="_blank" rel="noopener norferrer"><FontAwesomeIcon id="deployIcon" icon={faRocket} size='2x' /></a></Col>
-                    <Col className="appRepoColMobile"><a href="https://shopify.com" target="_blank" rel="noopener norferrer"><FontAwesomeIcon id="repoIcon"icon={faGitSquare} size='2x' /></a></Col>
-                  </Row>
-              </Card.Text>
-      
-            </Card.Body>
-        </Card>
-        </div>
-      </Carousel>
-      )
-        
+  render(props) {
+    const { items, data } = this.props
     
-    }
     return (
       
       <section
@@ -256,15 +96,31 @@ class Portfolio extends React.Component {
             </div>
             {/* Content for mobile layout */}
             <div className="mobileContent">
-            <TouchCarousel
-              component={CarouselContainer}
-              cardCount={this.state.items}
-              cardSize={375}
-              renderCard={renderCard}
-              loop
-              autoplay={3000}
->{this.items()}
-</TouchCarousel>
+            {items.map (items =>
+          <ListGroup >
+          <ListGroup.Item className="portfolioMobileItem" variant="secondary">
+            {items.content.frontmatter.title}
+            <h5>{items.content.frontmatter.category}</h5>
+            <a href={items.content.frontmatter.deploy} className="mobileDeployIcon" target="_blank" rel="noopener norferrer">
+            <button><FontAwesomeIcon icon={faRocket} size='2x'/> </button>
+          </a>
+          
+          <a href={items.content.frontmatter.repo} className="mobileRepoIcon" target="_blank" rel="noopener norferrer">
+            <button ><FontAwesomeIcon icon={faGitSquare} size='2x'/> </button>
+          </a>
+          </ListGroup.Item>
+          
+          
+          
+          {/* <ListGroup.Item variant="secondary">Secondary</ListGroup.Item>
+          <ListGroup.Item variant="success">Success</ListGroup.Item>
+          <ListGroup.Item variant="danger">Danger</ListGroup.Item>
+          <ListGroup.Item variant="warning">Warning</ListGroup.Item>
+          <ListGroup.Item variant="info">Info</ListGroup.Item>
+          <ListGroup.Item variant="light">Light</ListGroup.Item>
+          <ListGroup.Item variant="dark">Dark</ListGroup.Item> */}
+        </ListGroup>
+            ) }
             </div>
           </Col>
         </Row>
