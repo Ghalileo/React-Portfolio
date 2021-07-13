@@ -3,7 +3,7 @@ id: 4
 image: './gen.jpg'
 title: "Pass Generator"
 category: "JavaScript"
-repo: "https://github.com/Ghalileo/Password-Generator"
-deploy: "https://ghalileo.github.io/Password-Generator/"
-description: "An application which allows users to generate a random password."
+repo: "https://github.com/Ghalileo/Node-Password-Generator"
+deploy: "https://github.com/Ghalileo/Node-Password-Generator"
+description: "Node app that allows users to create a random password."
 ---

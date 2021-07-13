@@ -170,11 +170,7 @@
  
  
 // }
-.repoIcon{
-font-size: medium;
-position: relative;
-left: 50px;
-}
+
 .displayPortfolioApp:hover{
     opacity: 50%;
 }
@@ -190,11 +186,15 @@ left: 50px;
     color: cyan;
     opacity: 0.8;
     transition: 0.9s;
+    position:relative;
+    right: 10px;
 }
 #deployIcon{
     color: cyan;
     opacity: 0.8;
     transition: 0.9s;
+    position: relative;
+    left: 20px;
 }
 #deployIcon:hover {
     color: chartreuse;

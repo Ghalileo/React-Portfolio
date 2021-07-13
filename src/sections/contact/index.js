@@ -65,39 +65,43 @@ class Contact extends React.Component {
         if (this.state.show || this.context.height === "auto") {
             return (
                 <AnimationContainer delay={0} animation="fadeInUp fast">
-                {/* <div className="form-container">
+                    <form action="https://formspree.io/f/xpzkjdab"
+                    method="POST">
+                <div className="form-container">
                     <div className="line-text">
                         <h4>Get In Touch</h4>
                         <AnimationContainer delay={50} animation="fadeInUp fast">
                             <div className="form-group">
-                                <input type="text" className={`name ${this.check(this.state.name) ? "" : "error"}`} placeholder="Name" onChange={e => this.setState({name: e.target.value})} />
+                                <input type="text" name="name" className={`name ${this.check(this.state.name) ? "" : "error"}`} placeholder="Name" onChange={e => this.setState({name: e.target.value})} />
                             </div>
                         </AnimationContainer>
                         <AnimationContainer delay={100} animation="fadeInUp fast">
                         <div className="form-group">
-                            <input type="text" className={`email ${this.check(this.state.email) ? "" : "error"}`} placeholder="Email" onChange={e => this.setState({email: e.target.value})} />
+                            <input type="email" name="_replyto" type="text" className={`email ${this.check(this.state.email) ? "" : "error"}`} placeholder="Email" onChange={e => this.setState({email: e.target.value})} />
                         </div>
                         </AnimationContainer>
                         <AnimationContainer delay={150} animation="fadeInUp fast">
                             <div className="form-group">
-                                <input type="text" className="phone" placeholder="Phone" onChange={e => this.setState({phone: e.target.value})} />
+                                <input type="text" name="number" className="phone" placeholder="Phone (Optional)" onChange={e => this.setState({phone: e.target.value})} />
                             </div>
                         </AnimationContainer>
+                        
                         <AnimationContainer delay={200} animation="fadeInUp fast">
                         <div className="form-group">
-                            <textarea className={`message ${this.check(this.state.message) ? "" : "error"}`} placeholder="Message" onChange={e => this.setState({message: e.target.value})}></textarea>
+                            <textarea name="message" className={`message ${this.check(this.state.message) ? "" : "error"}`} placeholder="Message" onChange={e => this.setState({message: e.target.value})}></textarea>
                         </div>
                         </AnimationContainer>
                         <AnimationContainer delay={250} animation="fadeInUp fast">
                         <div className="submit">
-                            <button className={`hover-button ${this.state.error ? "error" : ""}`} onClick={() => this.submit()}>
+                            <button type="submit" className={`hover-button ${this.state.error ? "error" : ""}`} onClick={() => this.submit()}>
                                 <span>Send Message</span>
                             </button>
                         </div>
                         </AnimationContainer>
                     </div>
-                </div> */}
-                <iframe className="contactForm" title="contact" src="https://docs.google.com/forms/d/e/1FAIpQLScWcKpc9A36amBN-wZ69FNBOo9qBmgwYV0Tf6-MUHHV39d9QA/viewform?embedded=true" width="1040" height="640" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                </div>
+                </form>
+                {/* <iframe className="contactForm" title="contact" src="https://docs.google.com/forms/d/e/1FAIpQLScWcKpc9A36amBN-wZ69FNBOo9qBmgwYV0Tf6-MUHHV39d9QA/viewform?embedded=true" width="1040" height="640" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
                 </AnimationContainer>
             )
         }
