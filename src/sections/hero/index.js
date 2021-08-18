@@ -7,6 +7,8 @@ import Glitch from 'components/glitch'
 import Typewriter from 'typewriter-effect'
 import ThemeContext from '../../context'
 import myself from '../../assets/oseghale.png'
+import myself2 from '../../assets/theghalileo.jpg'
+import myself3 from '../../assets/theghalileo2.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithubSquare, faNodeJs, faGitSquare } from '@fortawesome/free-brands-svg-icons'
 import { faFistRaised, faFile } from '@fortawesome/free-solid-svg-icons'
@@ -51,7 +53,7 @@ class Hero extends React.Component {
           <Col md={6} className="img">
             <img
               id="headshotImg"
-              src={myself}
+              src={myself3}
               alt="person"
             />
           </Col>

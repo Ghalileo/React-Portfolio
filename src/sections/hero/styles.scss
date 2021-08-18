@@ -32,7 +32,7 @@
             justify-content: center;
             flex-direction: column;
             padding: 5%;
-            background-color: #4e1fbb;
+            background-color: #000033;
             @media (max-width:991px) {
                 width: 100%;
             }
@@ -107,7 +107,9 @@
 }
 #headshotImg{
 margin-bottom: -350px;
-
+filter: grayscale(75%);
+position: relative;
+bottom: 200px;
 }
 @media screen and (max-width:600px) {
     #headshotImg{
