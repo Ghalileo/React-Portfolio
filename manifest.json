@@ -1,5 +1,7 @@
 {
   "main.js": "render-page.js",
   "main.js.map": "render-page.js.map",
-  "static/oseghale.png": "static/oseghale-4e92081fda8b33d9876847f4bffd7f2e.png"
+  "static/oseghale.png": "static/oseghale-4e92081fda8b33d9876847f4bffd7f2e.png",
+  "static/theghalileo.jpg": "static/theghalileo-de464220bc13992393b5ab2c7649346c.jpg",
+  "static/theghalileo2.jpg": "static/theghalileo2-df03d447ef41ee3019daa28a70e532fb.jpg"
 }
