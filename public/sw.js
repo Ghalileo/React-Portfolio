@@ -27,20 +27,20 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-aa9c06612635764d6255.js"
+    "url": "webpack-runtime-011ee0209b015be602ab.js"
   },
   {
     "url": "framework-88a4fbb1a6e60e476d91.js"
   },
   {
-    "url": "app-bb9884d06392dd4e8cb5.js"
+    "url": "app-8c587f3f70b472fcf4cb.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-f8f457f0f05ac99e7f43.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "9c1d307fd686fc6263e921dd63f7bd3e"
+    "revision": "d8cb34dad710a47f0e5cd1512cdfc7c0"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "1f3e3cf11e5553ad074107ceff174282"
+    "revision": "ec5bdd71229ccd78bbad2fbee89074a5"
   },
   {
     "url": "manifest.json",
@@ -140,12 +140,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^`), ``)
+  pathname = pathname.replace(new RegExp(`^/React-Portfolio`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-bb9884d06392dd4e8cb5.js`))) {
+  if (!resources || !(await caches.match(`/React-Portfolio/app-8c587f3f70b472fcf4cb.js`))) {
     return await fetch(event.request)
   }
 
@@ -158,7 +158,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/React-Portfolio/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
