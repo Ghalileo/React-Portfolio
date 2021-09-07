@@ -62,9 +62,7 @@ class Navigation extends React.Component {
                         <br/>
                         <br/>
                         <br/>
-                        <br/>
-                        <br/>
-                        <br/>
+                        
                         <hr/>
                     </div>
                     <div className="links">
