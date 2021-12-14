@@ -29,7 +29,7 @@ class Hero extends React.Component {
           </h3>
 
                             <div className="separator" />
-                            <p>Individual oriented in people and a technology expert-in-training. Thrives with integrating technology into
+                            <p>Individual oriented in people and a technology expert. Thrives with integrating technology into
                                 others’ lives. Achieved a Bachelors in Integrative Studies focused in Computer Information Systems,
                                 Psychology, and Learning Technology with a minor in Spanish from the University of North Texas.
                                 Recent graduate from the Rice University Coding Bootcamp, which provided the opportunity to develop
