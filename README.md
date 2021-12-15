@@ -6,7 +6,7 @@
   
   # Description 
 
-  A single page resume which show cases a summary of my experience
+  A single page summary of my experience
 
   Table of Contents |
   ----------------- |
