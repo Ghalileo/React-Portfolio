@@ -17,8 +17,6 @@
   Licensing |
   
 
-  # Installation 
-  https://www.osiomare.com
 
   # Usage 
   https://www.osiomare.com
